@@ -33,9 +33,6 @@ Other typical weld anomalies
 ⚠️ Note: The exact defect categories and annotation formats (if applicable) should be interpreted according to the specific experimental setup used by the researcher.
 
 📁 Dataset Description
-Dataset 1
-
-File name: datasets1.zip
 
 Description:
 A weld radiographic image dataset containing one group of weld seam digital films.
@@ -43,8 +40,6 @@ The images exhibit clear defect patterns and are suitable for traditional image 
 
 Download link:https://pan.baidu.com/s/1gZBmIyyV1NCvUP2NUUxMgQ?pwd=gyxi
 
-
-File name: datasets2.zip
 
 Description:
 A second weld radiographic image dataset collected under different imaging conditions or weld configurations.
