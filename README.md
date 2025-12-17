@@ -1,66 +1,86 @@
-# Weld-defect-detection-datasets
+Weld Defect Detection Datasets
 📌 Dataset Overview
 
-This repository provides two weld radiographic film digital image datasets designed for weld defect detection and analysis.
-The datasets are collected from real industrial radiographic inspection scenarios and contain various typical welding defects, making them suitable for:
+This repository provides two weld radiographic film digital image datasets collected from real industrial radiographic inspection scenarios.
+The datasets are designed for weld defect detection, classification, and analysis, and contain a variety of typical welding defects encountered in practical nondestructive testing (NDT) applications.
 
-Weld defect detection
-
-Image processing and computer vision research
-
-Machine learning / deep learning–based defect classification and localization
-
-Industrial nondestructive testing (NDT) applications
-
-Both datasets consist of digital radiographic images of weld seams, with clear defect characteristics and practical imaging challenges such as noise, low contrast, and complex backgrounds.
+Both datasets consist of digital X-ray radiographic images of weld seams, characterized by noise contamination, low contrast, complex background structures, blurred defect boundaries, and subtle defect patterns, which pose significant challenges to automatic inspection systems.
+These characteristics make the datasets suitable for evaluating both traditional image processing techniques and machine learning / deep learning–based methods.
 
 🔍 Defect Types
 
-The datasets include common weld defects observable in radiographic films, such as (but not limited to):
+The datasets cover common weld defects observable in radiographic films, including but not limited to:
 
-Lack of penetration
+Incomplete penetration
 
 Porosity
 
 Slag inclusion
 
-Cracks
-
 Incomplete fusion
+
+Cracks
 
 Other typical weld anomalies
 
-⚠️ Note: The exact defect categories and annotation formats (if applicable) should be interpreted according to the specific experimental setup used by the researcher.
+⚠️ Note:
+The occurrence frequency of different defect types is inherently unbalanced, and the exact defect categories, labeling conventions, and annotation formats (if applicable) should be interpreted according to the specific experimental setup adopted by the researcher.
 
 📁 Dataset Description
+Dataset 1: Weld Radiographic Defect Image Dataset
 
-Description:
-A weld radiographic image dataset containing one group of weld seam digital films.
-The images exhibit clear defect patterns and are suitable for traditional image processing methods as well as deep learning–based approaches.
+This dataset contains one group of weld seam radiographic digital images collected from industrial inspection scenarios.
+The images exhibit diverse defect morphologies, including circular pores, elongated slag inclusions, linear lack-of-fusion indications, continuous dark penetration lines, and sharp-contoured crack features.
 
-Download link:https://pan.baidu.com/s/1gZBmIyyV1NCvUP2NUUxMgQ?pwd=gyxi
+From visual inspection, the defect appearances vary significantly in shape, size, contrast, and continuity. Some defects present clear contours, while others are weakly contrasted or partially obscured by background noise, making them difficult to distinguish even by the naked eye.
+The dataset reflects realistic inspection challenges such as blurred edges, small-scale defects, low-contrast unfused regions, and complex texture interference, which cannot be fully addressed by conventional image processing or standard machine learning methods alone.
 
+This dataset is suitable for:
 
-Description:
-A second weld radiographic image dataset collected under different imaging conditions or weld configurations.
-This dataset can be used for cross-dataset validation, robustness testing, or comparative experiments.
+Weld defect detection and classification
 
-Download link:https://pan.baidu.com/s/1mf3gkusHvUvokVvlW_tKuA?pwd=2dut
+Defect morphology analysis
 
-
-Recommended Use Cases
-
-Weld defect detection and segmentation
-
-Feature extraction and defect enhancement
+Traditional image processing–based feature extraction
 
 Deep learning model training and evaluation
 
-Comparative studies between different weld imaging conditions
+Download link:
+https://pan.baidu.com/s/1gZBmIyyV1NCvUP2NUUxMgQ?pwd=gyxi
 
-Industrial nondestructive testing research
+Dataset 2: Cross-Condition Weld Radiographic Image Dataset
+
+This dataset serves as a cross-dataset benchmark, consisting of weld radiographic images collected under different imaging conditions or weld configurations.
+
+The dataset is designed to evaluate model robustness and generalization capability and includes images with rare, small-scale, subtle, or weakly visible defects, which are particularly challenging for automated detection systems.
+Compared with Dataset 1, the defects in this dataset tend to exhibit lower contrast, less prominent boundaries, and stronger background interference, closely resembling real-world inspection scenarios.
+
+The dataset can be effectively used for:
+
+Cross-dataset validation
+
+Robustness and generalization testing
+
+Comparative experiments under varying inspection conditions
+
+Practical performance evaluation in realistic NDT scenarios
+
+Download link:
+https://pan.baidu.com/s/1mf3gkusHvUvokVvlW_tKuA?pwd=2dut
+
+🎯 Recommended Use Cases
+
+Weld defect detection and segmentation
+
+Defect feature extraction and enhancement
+
+Deep learning model training and evaluation
+
+Cross-dataset and robustness analysis
+
+Industrial nondestructive testing (NDT) research
 
 📜 License & Usage
 
 The datasets are provided for academic research and non-commercial use only.
-If you use this dataset in your research, publications, or projects, please cite this repository appropriately.
+If you use these datasets in your research, publications, or projects, please cite this repository appropriately.
