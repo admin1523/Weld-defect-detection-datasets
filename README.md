@@ -27,6 +27,7 @@ Other typical weld anomalies
 The occurrence frequency of different defect types is inherently unbalanced, and the exact defect categories, labeling conventions, and annotation formats (if applicable) should be interpreted according to the specific experimental setup adopted by the researcher.
 
 📁 Dataset Description
+
 Dataset 1: Weld Radiographic Defect Image Dataset
 
 This dataset contains one group of weld seam radiographic digital images collected from industrial inspection scenarios.
